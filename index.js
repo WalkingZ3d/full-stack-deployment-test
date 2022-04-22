@@ -7,7 +7,7 @@ app.use(cors("*"));
 app.use(express.json());
  
 app.use(favicon(__dirname + '/public/favicon.png'));
- 
+
 app.get('/', (req, res) => {
     res.json({
         first_name: "Dan",

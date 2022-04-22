@@ -2,10 +2,14 @@
   "name": "full-stack-deployment-test",
   "version": "1.0.0",
   "description": "tetsing full stack deployment",
-  "main": "xd.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node xd.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WalkingZ3d/full-stack-deployment-test.git"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "express-favicon": "^2.0.1"
+    "express-favicon": "^2.0.1",
+    "postgres": "^3.0.6"
   }
 }
